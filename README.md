@@ -95,5 +95,5 @@ Code available in `/code` folder
 ---
 
 ## 👨‍💻 Author
-Amandeep Singh  
+Akash Malik
 MCA - Chandigarh University
