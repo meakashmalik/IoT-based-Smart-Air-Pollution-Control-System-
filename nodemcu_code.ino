@@ -34,6 +34,8 @@ Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, OLED_RESET);
 //---------------- TIMER ---------------
 BlynkTimer timer;
 //======================================
+
+
 void bootScreen()
 {
  display.clearDisplay();
@@ -48,6 +50,7 @@ void bootScreen()
  delay(2000);
 }
 //======================================
+
 void sendData()
 {
  float h = dht.readHumidity();
@@ -112,6 +115,7 @@ void sendData()
  Serial.println(statusText);
 }
 //======================================
+
 void setup()
 {
  Serial.begin(115200);
